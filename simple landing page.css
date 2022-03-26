@@ -1,0 +1,64 @@
+html,body{
+    background-color: white;
+    font-family: 'Roboto';
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 50%;
+    padding-left:25%;
+}
+.container .item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: cadetblue;
+    margin-bottom: 15px;
+}
+.container .item .img{
+    font-size: 40px;
+    margin-right:5% ;
+    margin-left: 5%;
+    background-color: green;
+    color:black;
+}
+#line{
+    color: blue;
+    font-size: 23px;
+}
+h2{
+    color: blue;
+}
+.container form h2{
+    color: blue;
+    font-family: 'Roboto';
+}
+.container input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    outline: 2px solid blue;
+    font-family: 'Roboto';
+}
+.container textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    outline: 2px solid blue;
+    font-family: 'Roboto';
+}
+.container input[type='submit']{
+    background-color: #4080ff;
+    width: auto;
+    margin: 0 auto;
+    border: 0;
+    color: #fff;
+    padding: 13px 30px;
+}
+.container input[type='submit']:hover{
+    cursor: pointer;
+}
+
